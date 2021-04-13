@@ -2,17 +2,18 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import './styles/styles.component.css';
+import "./styles/styles.component.css";
 
 const FooterPart = () => (
-  <footer style={{backgroundColor:"pink", margin:"0"}}>
+  <footer style={{ backgroundColor: "#ad9e17", margin: "0" }}>
     <Container>
       <Row>
-        <Col lg={3} md={6}><br />
+        <Col lg={3} md={6}>
+          <br />
           <ul>
             <h4>Connect with AD</h4>
             <li>
-              <small >About AD</small>
+              <small>About AD</small>
             </li>
             <li>
               <small>Contact the Editors</small>
@@ -29,7 +30,9 @@ const FooterPart = () => (
           </ul>
         </Col>
 
-        <Col lg={3} md={6}> <br />
+        <Col lg={3} md={6}>
+          {" "}
+          <br />
           <ul>
             <h4>Subscriptions</h4>
             <li>
@@ -50,16 +53,31 @@ const FooterPart = () => (
           </ul>
         </Col>
 
-
-        <Col lg={3} md={6}> <br />
-            <ul>
-                <h4>hello</h4>
-            </ul>
+        <Col lg={3} md={6}>
+          {" "}
+          <br />
+          <ul>
+            <h4>Liorem Ipsum</h4>
+            <li><small>Ipsum</small></li>
+            <li><small>Ipsum</small></li>
+            <li><small>Ipsum</small></li>
+            <li><small>Ipsum</small></li>
+            <li><small>Ipsum</small></li>
+          </ul>
         </Col>
 
-
-        <Col lg={3} md={6}> <br />
-        3 of 3</Col>
+        <Col lg={3} md={6}>
+          {" "}
+          <br />
+          <ul>
+            <h4>Contact Us</h4>
+            <li><small>Facebook</small></li>
+            <li><small>Whatsapp</small></li>
+            <li><small>Twitter</small></li>
+            <li><small>Instagram</small></li>
+            <li><small>SnapChat</small></li>
+          </ul>
+        </Col>
       </Row>
     </Container>
   </footer>

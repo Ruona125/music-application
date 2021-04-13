@@ -1,7 +1,32 @@
 .firstCol{
     padding-bottom: 4em !important;
-    /* left:2em !important; */
+    padding-left: 3em !important;
 }
+
+.cardPic:hover{
+    width:21rem !important;
+}
+
+
 ul li{
     list-style: none ;
+}
+.TopNav {
+    background-color: #ad9e17;
+}
+
+.LinkText {
+    color: #fff !important;
+}
+
+.LinkText:hover{
+    color:#c2be97 !important;
+}
+
+small{
+    color:#fff  !important;
+}
+
+ul h4{
+    color:#fff !important
 }
